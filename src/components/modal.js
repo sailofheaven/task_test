@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 
 export default class Modal extends React.Component {
     onClose() {
@@ -24,4 +25,10 @@ export default class Modal extends React.Component {
         )
 
     }
+}
+
+Modal.propTypes = {
+    zIndex: PropTypes.number,
+    onClose: PropTypes.func,
+    item: PropTypes.array
 }

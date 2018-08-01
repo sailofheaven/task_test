@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --open --mode development --history-api-fallback",
     "build": "webpack --mode production",
     "test": "jest --config jest.config.json",
-    "serve": "npm build && node server.js"
+    "serve": "npm run-script build && node server.js"
   },
   "keywords": [],
   "author": "",

@@ -100,4 +100,4 @@
 - npm install
 
  1) npm run
- 2) npm build && node server и переходим по адресу http://127.0.0.1:3000
+ 2) npm run serve и переходим по адресу http://127.0.0.1:3000
