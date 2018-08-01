@@ -93,3 +93,11 @@
 выполненные вами.
 
 Страсть к развитию и изучения нового, как хобби занимаюсь gamedev.
+
+Запуск:
+- git clone https://github.com/sailofheaven/task_test.git
+- cd task_test
+- npm install
+
+ 1) npm run
+ 2) npm build && node server и переходим по адресу http://127.0.0.1:3000
