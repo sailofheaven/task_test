@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "testEnvironment": "node",
+  "moduleNameMapper":{
+    "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+  }
+}
